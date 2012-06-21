@@ -1,4 +1,4 @@
-NameKicker
+sNameKicker
 ==========
 
 Minecraft Bukkit plugin for offline servers.
