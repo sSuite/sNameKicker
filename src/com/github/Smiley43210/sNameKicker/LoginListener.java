@@ -16,7 +16,7 @@ public final class LoginListener implements Listener{
 	public void onJoin(PlayerJoinEvent e){
 		boolean con = e.getPlayer().getPlayerListName().equalsIgnoreCase("Player");
 		if (con){
-			e.getPlayer().kickPlayer("The name \"Player\" is not allowed! Use the MinecraftSP launcher instead.");
+			e.getPlayer().kickPlayer("The name \"Player\" is not allowed! Use a cracked launcher instead.");
 		}
 		boolean con2 = e.getPlayer().getPlayerListName().contains(" ");
 		if (con2){
